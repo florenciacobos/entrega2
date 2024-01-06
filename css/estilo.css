@@ -1,0 +1,565 @@
+/*configuracion: eliminamos espacios que nos puede generar el navegador*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #EDDDDD;  
+}
+
+header {
+    border-bottom: 3px solid #DC557E;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+main{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+/***************BOOTSTRAP*****************/
+
+/*INDEX*/
+
+.imgLogo {
+    width: 150px;
+    height: 150px;
+    border: #DC557E solid 3px;
+    border-radius: 20px;
+    margin: 10px 20px;
+
+}
+
+.encabezado {
+    font-family: cursive;
+    background-color: #EDDDDD;
+    border-bottom: 20px solid #D192A5;
+    border-top: 20px solid #D192A5;
+    height: auto;
+}
+
+.container-fluid{
+    justify-content: space-around;
+}
+
+.busqueda {  /*barra espaciadora para buscar productos*/
+    background: #D192A5;
+    color: #DC557E;
+    width: 350px;
+    height: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.titulos {
+    color: #DC557E;
+    font-family: cursive;
+
+}
+
+.divTitulo{
+    color: #DC557E;
+    font-family: cursive;
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+    border-radius: 20px;
+    width: 300px;  
+}
+
+.titNov{
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+
+.btn {  /*boton de buscar producto*/
+    background: #D192A5;
+    color: #DC557E;
+    border: #EDDDDD;
+    border-radius: 10PX;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.btn:hover{
+    background: #DC557E;
+    color: #f8ccd9;
+}
+
+.carruselNovedades{
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    
+}
+
+.text-center{
+    margin: 0 auto;
+}
+.imgCentral {
+    border-radius: 20px;
+    border-left: #D192A5 solid 3px;
+    border-right: #D192A5 solid 3px;
+    margin: 20px 0;
+}
+
+/* productos */
+
+h1 {
+    text-align: center;
+    margin: 20px 0px;
+    font-family: cursive;
+    color: #DC557E;
+
+}
+
+.nav-link {
+    color:#DC557E;
+}
+
+.nav-link:hover {
+    color: #D192A5;
+}
+
+.contenedorProductos {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.productos {
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 5px;
+    margin: 20px;
+    color: #EDDDDD;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.productos h2 {
+    font-size: 3rem;
+}
+
+
+/* cards */
+.contenedorProducto {
+    background-color:#f8ccd9;
+    border: #D192A5 solid 3px;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: cursive;
+    color: #DC557E;
+    text-align: center;
+    width: 300px;
+    height: 650px;
+}
+
+.imgProduc {
+    border: #D192A5 solid 3px;
+    border-radius: 20px;
+    width: 250px;
+    height: 400px;
+    margin: 10px auto;
+}
+
+.nombreProduc {
+    text-transform: uppercase;
+    font-size: bold;
+}
+
+.botonCarrito {
+    width: 200px;
+    text-transform: uppercase;
+}
+
+
+/* PAGINACION */
+
+.page-link {
+    color: #DC557E;
+    background-color: #f8ccd9;
+    border:#DC557E solid 2px;
+}
+
+.page-link:hover {
+    background: #DC557E;
+    color: #f8ccd9;
+    
+}
+ /* MODAL */
+
+ .btnModal {
+    width: 200px;
+    text-transform: uppercase;
+    font-size: bold;
+    font-family: cursive;
+ }
+
+ .textoCarrito {
+    font-size: bold;
+    font-family: cursive;
+    color: #DC557E;
+    text-align: center;
+
+ }
+
+ .btnAceptarCancelar{
+    width: 150px;
+    text-transform: uppercase;
+    font-size: bold;
+    font-family: cursive;
+
+ }
+
+ /* logo whatsapp */
+
+ .logoWhats {
+    width: 150px;
+    right: 20px;
+    position: fixed;
+    bottom: 20px;
+
+ }
+
+/* footer */
+a{
+    text-decoration: none;
+    font-family: cursive;
+    color: #DC557E;
+}
+
+hr {
+    border: #DC557E solid 3px;
+}
+
+.test {
+    color: #DC557E;
+}
+
+.tituloFooter{
+    width: 200px;
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    color: #EDDDDD;
+    text-align: center;
+
+}
+
+.contenedorFooter{
+    width: 200px;
+}
+
+.parrafoFooter {
+    font-family: cursive;
+    color: #DC557E;
+    font-size: bold;
+    display: flex;
+}
+
+.iconoContacto{
+    margin-right: 5px;
+}
+
+/* HASTA ACA SEGUNDA PRE-ENTREGA */
+
+
+
+/* bootstrapp/ consejos */
+
+
+/*CONSEJOS*/
+
+main {
+    font-family: cursive;
+}
+
+.tit3 {
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+    border-radius: 20px;
+    color: #DC557E;
+    padding: 5px;
+    margin: 10px;
+    width: 900px;
+    text-align: center;
+}
+
+.fotoConsejo1{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 0 10px 10px 30px;
+    border: #DC557E solid 3px;
+}
+
+.buttonConsejo1 {
+    width: 400px;
+}
+
+.collapse1{
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+}
+
+.fotoConsejo2{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 0 10px 10px 30px;
+    border: #DC557E solid 3px;
+}
+
+.buttonConsejo2 {
+    width: 400px;
+}
+
+.collapse2{
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+}
+
+
+.fotoConsejo3{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 0 10px 10px 30px;
+    border: #DC557E solid 3px;
+}
+
+.buttonConsejo3 {
+    width: 400px;
+}
+
+.collapse3{
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+}
+
+.btnConsejo {
+    width: 350px;
+    border: #DC557E solid 3px;
+}
+
+.btnConsejo:hover {
+    border: #D192A5 solid 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .contenedorConsejos{
+    display: flex;
+
+}
+.consejos {
+    margin: 20px;
+    padding: 10px; 
+    
+}
+
+.botonConsejos{
+    display: block;
+    width: 300px;
+    background-color: #D192A5;
+    border: solid 3px #DC557E;
+    margin: 0 10px 10px 20px;
+    padding: 10px 20px; 
+    border-radius: 20px;
+    font-family: cursive;
+    color: #EDDDDD;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+li {
+    
+    text-align: left;
+    margin: 20px 0px;
+    font-family: cursive;
+    color: #DC557E;
+    
+
+} */
+
+
+/**PREGUNTAS FRECUENTES*/
+.contenedorPregFrec{
+    display: flex;
+    margin-left: 300px;
+}
+
+.pregFrecuentes{
+    display: block;
+    color: #EDDDDD;
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+    border-radius: 20px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-family: cursive;
+
+    width: 400px;
+    
+
+}
+.fotoPreg{
+    display: inline;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    
+    margin: 20px 10px 10px 100px;
+    padding: 10px;
+
+}
+
+/*NOSOTROS*/
+.contenedorNosotros{
+    display: flex;
+    margin-left: 300px;
+}
+
+.fotoNosotros{
+    display: inline;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+
+}
+.botonNosotros{
+    display: block;
+    color: #EDDDDD;
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+    border-radius: 20px;
+    margin: 0px 20px 40px 100px;
+    padding: 30px 70px;
+    font-family: cursive;
+    text-align: center;
+    width: 200px;
+
+}
+
+/*CONTACTO*/
+.contenedorContacto{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotoContacto{
+    
+    
+    width: 600px;
+    height: 400px;
+    border: #DC557E 3px solid;
+    border-radius: 50px;
+
+    margin: 60px  0px;
+
+}
+.tituloContacto{
+    /* display: block; */
+    color: #EDDDDD;
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+    border-radius: 20px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-family: cursive;
+
+    width: 150px;
+
+}
+form{
+    display: block;
+}
+
+.texto{
+    
+    margin-bottom: 10px;
+    width: 150px;
+    /* justify-content: center; */
+}
+
+.nombreFormulario{
+    color: #EDDDDD;
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 0px 20px;
+    font-family: cursive;
+    width: 1000px;
+
+}
+
+.textArea{
+    width: 300px;
+    color: #EDDDDD;
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 0px 20px;
+    font-family: cursive;
+}
+
+.nombreEnviarRestablecer{
+    color: #EDDDDD;
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 0px 20px;
+    font-family: cursive;
+
+    width: 150px;
+
+}
+.texto {
+    color: #EDDDDD;
+    background-color: #D192A5;
+    border: #DC557E solid 3px;
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 0px 20px;
+    font-family: cursive;
+
+    text-align: center;
+
+    width: 150px;
+    height: 22px;
+}
+
+
