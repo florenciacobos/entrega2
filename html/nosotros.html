@@ -5,69 +5,186 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOSOTROS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body>
 
-    <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                    aria-controls="panelsStayOpen-collapseOne">
-                    Accordion Item #1
-                </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                    plugin adds the appropriate classes that we use to style each element. These classes control the
-                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
-                    this with custom CSS or overriding our default variables. It's also worth noting that just about any
-                    HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-            </div>
+    <header class="navbar navbar-expand-lg encabezado">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="imgLogo" src="../img/logo-femina-style.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
+                    <li class="nav-item">
+                        <a class="nav-link " href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/productos.html">PRODUCTOS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/consejos.html">CONSEJOS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/preg.frec.html">PREG. FREC.</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/nosotros.html">NOSOTROS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/contacto.html">CONTACTO</a>
+                    </li>
+
+                </ul>
+                <input class="form-control me-2 busqueda" type="search" placeholder="Busca un producto..."
+                    aria-label="Search">
+
+                <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                </form>
+            </nav>
         </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseTwo">
-                    Accordion Item #2
-                </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+    </header>
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="bg-linght text-center pt-5 pb-4 ">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mx-auto mt-3 contenedorFooter">
+                    <h5 class="text-uppercase mb-4 font-weight-bold tituloFooter">Nosotros:</h5>
+                    <hr class="mb-4">
+                    <p class="font-weight-bold parrafoFooter">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae odio beatae quasi
+                        cum
+                        nam cumque minima quidem soluta .
+                    </p>
+
                 </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseThree">
-                    Accordion Item #3
-                </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mx-auto mt-3 contenedorFooter">
+                    <h5 class="text-uppercase mb-4 font-weight-bold tituloFooter">Acerca de:</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <a href="#">Tu cuenta</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Tus ordenes</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Manejo de cuenta</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Ayuda</a>
+                    </p>
+
                 </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mx-auto mt-3 contenedorFooter">
+                    <h5 class="text-uppercase mb-4 font-weight-bold tituloFooter">Medios de Pago:</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <a href="#">Efectivo</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Transferencia</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Tarjeta de debito</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Tarjeta de credito</a>
+                    </p>
+
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mx-auto mt-3 contenedorFooter">
+                    <h5 class="text-uppercase mb-4 font-weight-bold tituloFooter">Envios:</h5>
+                    <hr class="mb-4">
+                    <p class="parrafoFooter"> <i class="bi bi-house iconoContacto"> </i> femina.style_lenceria </p>
+
+                    <p class="parrafoFooter"> <i class="bi bi-envelope iconoContacto"> </i> femina.style@gmail.com </p>
+
+                    <p class="parrafoFooter"> <i class="bi bi-phone iconoContacto"> </i> 2615953001 </p>
+                </div>
+                <hr class="mb-4">
+
+                <div class="text-center mb-2">
+                    <p>
+                        Copyringht Todos los derechos reservados
+                        <a href="#">
+                            <strong class="test">Test</strong>
+                        </a>
+                    </p>
+
+                    <div class="text-center">
+                        <ul class="list-unstyled list-inline lista">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" class="text-dark"> <i
+                                        class="bi bi-facebook"></i></a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/" class="text-dark"><i
+                                        class="bi bi-instagram"></i></a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="https://www.youtube.com/" class="text-dark"> <i class="bi bi-youtube"></i> </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/login/es" class="text-dark"> <i
+                                        class="bi bi-linkedin"></i></a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
             </div>
+
         </div>
-    </div>
+
+        <!-- logo whatsapp -->
+
+        <a href="https://web.whatsapp.com/send?phone=2615953001&text=Hola!,%20quisiera%20hacerte%20una%20consulta"
+            target="_blank">
+            <img class="logoWhats img-fluid" src="../img/logo-whatsapp.png" alt="whatsapp">
+        </a>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 
     <!-- <header>
@@ -93,11 +210,6 @@
         <h1>Femina Style</h1>
         <h2>Venta de lenceria femenina</h2> -->
 
-
-
-
-
-
     <!-- 
         <div class="contenedorNosotros">
             <div>
@@ -121,40 +233,6 @@
          -->
     <!-- </main> -->
 
-
-    <footer>
-        <div class="footer1">
-            <h4 class="subtitulo4">ACERCA DE:</h4>
-            <ul>
-                <li>FEMINA STYLE</li>
-                <li>TERMINOS Y CONDICIONES</li>
-                <li>POLITICAS DE PRIVACIDAD</li>
-            </ul>
-
-        </div>
-
-        <div class="footer1">
-            <h4 class="subtitulo4">MEDIOS DE PAGO:</h4>
-            <ul>
-                <li>EFECTIVO</li>
-                <li>TRANSFERENCIAS BANCARIAS</li>
-                <li>TARJETAS DE DEBITO O CREDITO</li>
-            </ul>
-
-        </div>
-
-        <div class="footer1">
-            <h4 class="subtitulo4">FORMAS DE ENVIOS:</h4>
-            <ul>
-                <li>ATENCION EN EL SHOWROON</li>
-                <li>PUNTO DE ENCUENTRO</li>
-                <li>ENVIOS A DOMICILIO</li>
-            </ul>
-
-        </div>
-
-
-    </footer>
 
 </body>
 

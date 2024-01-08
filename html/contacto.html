@@ -5,161 +5,262 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACTO</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body>
-    <header>
+    <header class="navbar navbar-expand-lg encabezado">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="imgLogo" src="../img/logo-femina-style.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
+                    <li class="nav-item">
+                        <a class="nav-link " href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/productos.html">PRODUCTOS</a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/consejos.html">CONSEJOS</a>
+                    </li>
 
-        <main class="form-signin w-100 m-auto">
-            <form>
-                <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-                <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/preg.frec.html">PREG. FREC.</a>
+                    </li>
 
-                <div class="form-floating">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email address</label>
-                </div>
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Password</label>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/nosotros.html">NOSOTROS</a>
+                    </li>
 
-                <div class="form-check text-start my-3">
-                    <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        Remember me
-                    </label>
-                </div>
-                <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
-                <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2023</p>
-            </form>
-        </main>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/contacto.html">CONTACTO</a>
+                    </li>
 
+                </ul>
+                <input class="form-control me-2 busqueda" type="search" placeholder="Busca un producto..."
+                    aria-label="Search">
 
-
-
-
-
-
-
-
-        <a href="">
-            <img class="logo" src="../img/Logo-femina-style.png" alt="Logo Femina Style">
-
-        </a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="productos.html">PRODUCTOS</a></li>
-                <li><a href="consejos.html">CONSEJOS</a></li>
-                <li><a href="preg.frec.html">PREG. FREC.</a></li>
-                <li><a href="nosotros.html">NOSOTROS</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
-
-            </ul>
-        </nav>
-
+                <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                </form>
+            </nav>
+        </div>
     </header>
+   
 
     <main>
-        <h1>Femina Style</h1>
-        <h2>Venta de lenceria femenina</h2>
+
+    </div>
+
+    <div class="foto">
+        <img class="fotoContacto" src="../img/lenceria.jpg" alt="">
+    </div>
 
         <h3 class="tituloContacto">CONTACTO:</h3>
 
-        <div class="contenedorContacto">
+         <!-- FORMS 1 -->
 
-            <div>
-                <form>
-                    <div>
-                        <label for class="nombreFormulario">NOMBRE:</label>
-                        <input class="texto" type="text" id="nombre">
-                    </div>
-
-
-                    <div>
-                        <label for class="nombreFormulario">APELLIDO:</label>
-                        <input class="texto" type="text" id="apellido">
-                    </div>
-
-                    <div>
-                        <label for class="nombreFormulario">TELEFONO:</label>
-                        <input class="texto" type="tel" id="telefono"> <!-- el tel esta bien?-->
-
-                    </div>
-
-
-                    <div>
-                        <label for class="nombreFormulario">CORREO:</label>
-                        <input class="texto" type="email" id="correo">
-
-                    </div>
-
-                    <div>
-                        <label for class="nombreFormulario">CONSULTA:</label>
-
-                    </div>
-
-                    <div>
-                        <textarea class="textArea" name="texarea" id="texarea" cols="30" rows="10"
-                            placeholder="Deje su consulta..."></textarea>
-
-                    </div>
-
-                    <input type="submit" class="nombreEnviarRestablecer">
-
-                    <input type="reset" class="nombreEnviarRestablecer">
-
-                </form>
-
-            </div>
-
-            <div class="foto">
-                <img class="fotoContacto" src="../img/lenceria.jpg" alt="">
-            </div>
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">NOMBRE:</label>
+          <input type="text" class="form-control" id="validationTooltip01" value="Ingrese su nombre..." required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Apellido:</label>
+          <input type="text" class="form-control" id="validationTooltip02" value="Ingrese su apellido..." required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
 
         </div>
+
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltip02" class="form-label">Telefono:</label>
+            <input type="text" class="form-control" id="validationTooltip02" value="Ingrese su telefono..." required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+            
+          </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltipUsername" class="form-label">Mail:</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">
+              Please choose a unique and valid username.
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      
+    
+        
+        <div class="col-md-6">
+          <button class="btn btn-primary" type="submit">ENVIAR</button>
+        </div>
+        <div class="col-md-6">
+            <button class="btn btn-primary" type="submit">RESTABLECER</button>
+          </div>
+      </form>
+
+
+
+    <!-- FORMS 2 -->
+
+    
+    
 
 
 
     </main>
 
-    <footer>
-        <div class="footer1">
-            <h4 class="subtitulo4">ACERCA DE:</h4>
-            <ul>
-                <li>FEMINA STYLE</li>
-                <li>TERMINOS Y CONDICIONES</li>
-                <li>POLITICAS DE PRIVACIDAD</li>
-            </ul>
+ <!-- footer -->
+ <footer class="bg-linght text-center pt-5 pb-4 ">
+    <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+
+            <div class="col-xl-4 col-md-6 col-sm-12 mx-auto mt-3 contenedorFooter">
+                <h5 class="text-uppercase mb-4 font-weight-bold tituloFooter">Nosotros:</h5>
+                <hr class="mb-4">
+                <p class="font-weight-bold parrafoFooter">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae odio beatae quasi
+                    cum
+                    nam cumque minima quidem soluta .
+                </p>
+
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 mx-auto mt-3 contenedorFooter">
+                <h5 class="text-uppercase mb-4 font-weight-bold tituloFooter">Acerca de:</h5>
+                <hr class="mb-4">
+                <p>
+                    <a href="#">Tu cuenta</a>
+                </p>
+
+                <p>
+                    <a href="#">Tus ordenes</a>
+                </p>
+
+                <p>
+                    <a href="#">Manejo de cuenta</a>
+                </p>
+
+                <p>
+                    <a href="#">Ayuda</a>
+                </p>
+
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 mx-auto mt-3 contenedorFooter">
+                <h5 class="text-uppercase mb-4 font-weight-bold tituloFooter">Medios de Pago:</h5>
+                <hr class="mb-4">
+                <p>
+                    <a href="#">Efectivo</a>
+                </p>
+
+                <p>
+                    <a href="#">Transferencia</a>
+                </p>
+
+                <p>
+                    <a href="#">Tarjeta de debito</a>
+                </p>
+
+                <p>
+                    <a href="#">Tarjeta de credito</a>
+                </p>
+
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 mx-auto mt-3 contenedorFooter">
+                <h5 class="text-uppercase mb-4 font-weight-bold tituloFooter">Envios:</h5>
+                <hr class="mb-4">
+                <p class="parrafoFooter"> <i class="bi bi-house iconoContacto"> </i> femina.style_lenceria </p>
+
+                <p class="parrafoFooter"> <i class="bi bi-envelope iconoContacto"> </i> femina.style@gmail.com </p>
+
+                <p class="parrafoFooter"> <i class="bi bi-phone iconoContacto"> </i> 2615953001 </p>
+            </div>
+            <hr class="mb-4">
+
+            <div class="text-center mb-2">
+                <p>
+                    Copyringht Todos los derechos reservados
+                    <a href="#">
+                        <strong class="test">Test</strong>
+                    </a>
+                </p>
+
+                <div class="text-center">
+                    <ul class="list-unstyled list-inline lista">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" class="text-dark"> <i
+                                    class="bi bi-facebook"></i></a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/" class="text-dark"><i
+                                    class="bi bi-instagram"></i></a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/" class="text-dark"> <i class="bi bi-youtube"></i> </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/login/es" class="text-dark"> <i
+                                    class="bi bi-linkedin"></i></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
 
         </div>
 
-        <div class="footer1">
-            <h4 class="subtitulo4">MEDIOS DE PAGO:</h4>
-            <ul>
-                <li>EFECTIVO</li>
-                <li>TRANSFERENCIAS BANCARIAS</li>
-                <li>TARJETAS DE DEBITO O CREDITO</li>
-            </ul>
+    </div>
 
-        </div>
+    <!-- logo whatsapp -->
 
-        <div class="footer1">
-            <h4 class="subtitulo4">FORMAS DE ENVIOS:</h4>
-            <ul>
-                <li>ATENCION EN EL SHOWROON</li>
-                <li>PUNTO DE ENCUENTRO</li>
-                <li>ENVIOS A DOMICILIO</li>
-            </ul>
+    <a href="https://web.whatsapp.com/send?phone=2615953001&text=Hola!,%20quisiera%20hacerte%20una%20consulta"
+        target="_blank">
+        <img class="logoWhats img-fluid" src="../img/logo-whatsapp.png" alt="whatsapp">
+    </a>
 
-        </div>
+</footer>
 
-
-    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
 </body>
 
 </html>
+
+
+
+
+
+   
