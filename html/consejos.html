@@ -21,7 +21,7 @@
     <header class="navbar navbar-expand-lg encabezado">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img class="imgLogo" src="../img/logo-femina-style.png" alt="logo">
+                <img class="imgLogo img-fluid" src="../img/logo-femina-style.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -54,11 +54,12 @@
                     </li>
 
                 </ul>
-                <input class="form-control me-2 busqueda" type="search" placeholder="Busca un producto..."
+                <div class="contenedorBusqueda">
+                    <input class="form-control me-2 busqueda" type="search" placeholder="Busca un producto..."
                     aria-label="Search">
-
-
-                <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                    <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                </div>
+                
                 </form>
             </nav>
         </div>
@@ -67,120 +68,76 @@
 
     <main class="text-center ">
 
-        <h3 class="text-center text-fluid tit3 ">CONSEJOS UTILES PARA EL CUIDADO DE TUS PRENDAS</h3>
+        <h3 class="text-center m-3 text-fluid tit3 ">CONSEJOS UTILES</h3>
+        <h3 class="text-center  m-3 tit3 ">PARA EL CUIDADO DE TUS PRENDAS</h3>
 
-        <!-- COLLAPSE -->
+            <!-- COLLAPSE -->
 
-        <!-- <div class="d-inline-flex gap-1">
-            <div>
-                <img class="img-fluid fotoConsejo1" src="../img/imgconsejo1.png" alt="CONSEJO 1">
+            <!-- botones -->
+            <div class="contenedorConsejos m-5">
+                <div>
+                    <img class="img-fluid fotoConsejo1" src="../img/imgconsejo1.png" alt="CONSEJO 1">
 
-                <button class="btn btn-primary btnConsejo" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                    COMO CUIDAR TU PRENDA
-                </button>
-
-                <div class="collapse" id="collapseExample1 ">
-                    <div class="card card-body">
-                        <div class="card card-body collapse1" style="width: 300px;">
+                    <button type="button" class="btn btn-light btnConsejo" data-bs-target="#collapse1" data-bs-toggle="collapse" aria-controls="collapse1" aria-expanded="false">Como cuidar tu prenda:</button>
+                    <div class="col-xl-4 col-sm-12 ">
+                        <div class="collapse contenedorInfo" id="collapse1">
+                            
                             <p>
                                 Lavar a mano,
                                 Secar al aire libre,
                                 Usa bolsas de lavado,
                                 Almacenamiento adecuado
                             </p>
+            
                         </div>
+    
                     </div>
-                </div>
-
-            </div>
-
-            <div class="d-inline-flex gap-1">
-                <div>
-                    <img class="img-fluid fotoConsejo1" src="../img/imconsejo2.png" alt="CONSEJO 2">
-
-                    <button class="btn btn-primary btnConsejo" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                        COMO SE LAVA LA ROPA INTERIOR
-                    </button>
-
-                    <div class="collapse" id="collapseExample2">
-                        <div class="card card-body">
-                            <div class="card card-body collapse1" style="width: 300px;">
-                                <p>Antes de lavar, asegúrate de leer las etiquetas de cuidado.
-                                    Siempre es mejor lavar a mano para evitar que se dañe la prenda .
-                                    Usa agua tibia y un detergente suave para lavar la lenceria.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="d-inline-flex gap-1">
-                <div>
-                    <img class="img-fluid fotoConsejo1" src="../img/imgconsejo3.jpg" alt="CONSEJO 3">
-
-                    <button class="btn btn-primary btnConsejo" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                        COMO GUARDAR LA LENCERIA
-                    </button>
-
-                    <div class="collapse" id="collapseExample3">
-                        <div class="card card-body">
-                            <div class="card card-body collapse2" style="width: 300px;">
-                                <p>Guarda la ropa interior en un cajón o armario limpio y seco para evitar que se
-                                    ensucie o
-                                    dañe. Separa
-                                    las prendas por tipo y color para facilitar la selección y el cuidado.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div> -->
-
-            <!-- COLLAPSE -->
-
-            <!-- botones -->
-            <div>
-                
-            </div>
-            <div>
-                <div>
-                    <img class="img-fluid fotoConsejo1" src="../img/imgconsejo1.png" alt="CONSEJO 1">
-
-                    <button type="button" class="btn btn-success" data-bs-target="#collapse1" data-bs-toggle="collapse" aria-controls="collapse1" aria-expanded="false">Como cuidar tu prenda:</button>
 
                 </div>
 
                 <div>
                     <img class="img-fluid fotoConsejo1" src="../img/imconsejo2.png" alt="CONSEJO 2">
 
-                    <button type="button" class="btn btn-success" data-bs-target="#collapse2" data-bs-toggle="collapse" aria-controls="collapse2" aria-expanded="false">Como se lava la ropa interior:</button>
+                    <button type="button" class="btn btn-light btnConsejo" data-bs-target="#collapse2" data-bs-toggle="collapse" aria-controls="collapse2" aria-expanded="false">Como se lava la ropa interior:</button>
+                    <div class="col-xl-4 col-sm-12 ">
+                        <div class="collapse contenedorInfo" id="collapse2">
+                            <p>
+                                Antes de lavar, asegúrate de leer las etiquetas de cuidado.
+                                Siempre es mejor lavar a mano para evitar que se dañe la prenda .
+                                Usa agua tibia y un detergente suave para lavar la lenceria.
+                            </p>
+    
+                        </div>
+    
+                    </div>
 
                 </div>
 
                 <div>
                     <img class="img-fluid fotoConsejo1" src="../img/imgconsejo3.jpg" alt="CONSEJO 3">
 
-                    <button type="button" class="btn btn-success" data-bs-target="#collapse3" data-bs-toggle="collapse" aria-controls="collapse3" aria-expanded="false">Como guardar la lenceria</button>
+                    <button type="button" class="btn btn-light btnConsejo" data-bs-target="#collapse3" data-bs-toggle="collapse" aria-controls="collapse3" aria-expanded="false">Como guardar la lenceria</button>
+                    <div class="col-xl-4 col-sm-12 ">
+                        <div class="collapse contenedorInfo" id="collapse3">
+                            <p>
+                                Guarda la ropa interior en un cajón o armario limpio y seco para evitar que se
+                                ensucie o
+                                dañe. Separa
+                                las prendas por tipo y color para facilitar la selección y el cuidado.
+                            </p>
+            
+                        </div>
+                    </div>
 
                 </div>
-
-
-                
-
                 
             </div>
 
             <!-- contenido -->
 
-            <div class="row mt-5">
-                <div class="col">
-                    <div class="collapse" id="collapse1">
+            <!-- <div class="row mt-5 contenedorInfos"> -->
+                <!-- <div class="col">
+                    <div class="collapse contenedorInfo" id="collapse1">
                         
                         <p>
                             Lavar a mano,
@@ -189,11 +146,11 @@
                             Almacenamiento adecuado
                         </p>
         
-                    </div>
+                    </div> -->
 
-                </div>
-                <div class="col">
-                    <div class="collapse" id="collapse2">
+                <!-- </div> -->
+                <!-- <div class="col">
+                    <div class="collapse contenedorInfo" id="collapse2">
                         <p>
                             Antes de lavar, asegúrate de leer las etiquetas de cuidado.
                             Siempre es mejor lavar a mano para evitar que se dañe la prenda .
@@ -202,10 +159,10 @@
 
                     </div>
 
-                </div>
+                </div> -->
 
-                <div class="col">
-                    <div class="collapse" id="collapse3">
+                <!-- <div class="col">
+                    <div class="collapse contenedorInfo" id="collapse3">
                         <p>
                             Guarda la ropa interior en un cajón o armario limpio y seco para evitar que se
                             ensucie o
@@ -214,8 +171,8 @@
                         </p>
         
                     </div>
-
-            </div>
+                </div> -->
+            <!-- </div> -->
 
 
     </main>

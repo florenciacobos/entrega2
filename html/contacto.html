@@ -58,78 +58,78 @@
             </nav>
         </div>
     </header>
-   
 
     <main>
 
     </div>
 
-    <div class="foto">
-        <img class="fotoContacto" src="../img/lenceria.jpg" alt="">
-    </div>
+    
 
-        <h3 class="tituloContacto">CONTACTO:</h3>
+        <h3 class="text-center text-fluid tituloContacto">CONTACTO:</h3>
 
-         <!-- FORMS 1 -->
+    <!-- FORMS 1 -->
 
-    <form class="row g-3 needs-validation" novalidate>
-        <div class="col-md-4 position-relative">
-          <label for="validationTooltip01" class="form-label">NOMBRE:</label>
-          <input type="text" class="form-control" id="validationTooltip01" value="Ingrese su nombre..." required>
-          <div class="valid-tooltip">
-            Looks good!
-          </div>
-        </div>
-        <div class="col-md-4 position-relative">
-          <label for="validationTooltip02" class="form-label">Apellido:</label>
-          <input type="text" class="form-control" id="validationTooltip02" value="Ingrese su apellido..." required>
-          <div class="valid-tooltip">
-            Looks good!
-          </div>
-
-        </div>
-
-        <div class="col-md-4 position-relative">
-            <label for="validationTooltip02" class="form-label">Telefono:</label>
-            <input type="text" class="form-control" id="validationTooltip02" value="Ingrese su telefono..." required>
-            <div class="valid-tooltip">
-              Looks good!
+    <div>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-6 position-relative">
+              <label for="validationTooltip01" class="form-label descripcionContacto">Nombre:</label>
+              <input type="text" class="form-control llenarInfo" id="validationTooltip01" value="Ingrese su nombre..." required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
             </div>
+            <div class="col-md-6 position-relative">
+              <label for="validationTooltip02" class="form-label descripcionContacto">Apellido:</label>
+              <input type="text" class="form-control llenarInfo" id="validationTooltip02" value="Ingrese su apellido..." required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+    
+            </div>
+    
+            <div class="col-md-6 position-relative">
+                <label for="validationTooltip02" class="form-label descripcionContacto">Telefono:</label>
+                <input type="text" class="form-control llenarInfo" id="validationTooltip02" value="Ingrese su telefono..." required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+                
+              </div>
+    
+            <div class="col-md-6 position-relative">
+                <label for="validationTooltip02" class="form-label descripcionContacto">Mail:</label>
+                <input type="text" class="form-control llenarInfo" id="validationTooltip02" value="Ingrese su mail..." required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+                
+            </div>
+
             
-          </div>
-        <div class="col-md-4 position-relative">
-          <label for="validationTooltipUsername" class="form-label">Mail:</label>
-          <div class="input-group has-validation">
-            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
-            <div class="invalid-tooltip">
-              Please choose a unique and valid username.
+          
+    
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label descripcionContacto">Consulta:</label>
+                <textarea class="form-control llenarInfo1" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-          </div>
-        </div>
-
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-      
-    
+          
         
-        <div class="col-md-6">
-          <button class="btn btn-primary" type="submit">ENVIAR</button>
-        </div>
-        <div class="col-md-6">
-            <button class="btn btn-primary" type="submit">RESTABLECER</button>
-          </div>
-      </form>
-
-
-
-    <!-- FORMS 2 -->
-
+            
+            <div class="col-xl-2">
+              <button class="btn btn-primary btnEnviarRestablecer" type="submit">ENVIAR</button>
+            </div>
+            <div class="col-xl-2">
+                <button class="btn btn-primary btnEnviarRestablecer" type="submit">RESTABLECER</button>
+              </div>
     
+          </form>
     
+          <div class="col-xl-4 text-center">
+            <img class=" img-fluid fotoContacto" src="../img/lenceria.jpg" alt="">
+            </div>
 
+    </div>
+    
 
 
     </main>
